@@ -1,0 +1,277 @@
+/*header section*/
+body{
+    background-image: url('./images/bg.jpg');
+    font-family: sans-serif
+}
+
+
+.navbar-header{
+background-color: #e19b8e;
+height: 80px;
+}
+.visitor{
+color: #fff;
+ font-size: 40px;
+ padding: 15px;
+ background-color: #8b5c7e; 
+ height: 80px;
+}
+
+.icons{
+    color: #fff;
+    border:solid 7px  #8b5c7e;
+    border-radius: 50px;
+    background-color: #8b5c7e;
+    font-size: 20px;
+    position: relative;
+    right: 30px; 
+}
+
+
+#bdge-1{
+    background-color: green;
+    margin-bottom: 30px;
+    position: relative;
+    right: 15px; 
+}
+#bdge-2{
+    background-color: tomato;
+    margin-bottom: 30px;
+    position: relative;
+    right: 15px; 
+}
+#bdge-3{
+    background-color: gold;
+    margin-bottom: 30px;
+    position: relative;
+    right: 15px; 
+}
+.icon{
+    color: #fff;
+    border: solid 7px #8b5c7e;
+    border-radius: 50px;
+    background-color: #8b5c7e;
+    font-size: 17px;
+    display: inline
+}
+.jhon{
+
+    border-radius: 50px;
+    color: #fff;
+    background-color: #8b5c7e;
+    border:solid 10px #8b5c7e;
+   
+}
+
+.mid-section{
+    margin: 50px;
+}
+.market-icon i{
+    font-size: 30px;
+    padding: 15px 5px 0px 10px
+}
+.market-update{
+text-align: center;
+padding:0px 0px 40px 0px;
+}
+.market-update-1{
+    color: #fff;
+    background-color: rgb(10, 196, 19);
+    margin:5px;
+    height: 160px;
+    width: 260px; 
+}
+.market-update-2{
+    color: #fff;
+    background-color: rgb(39, 100, 233);
+    margin:5px;
+    height: 160px;
+    width: 260px; 
+}
+.market-update-3{
+    color: #fff;
+    background-color: black;
+    margin:5px;
+    height: 160px;
+    width: 260px; 
+}
+.market-update-4{
+    color: #fff;
+    background-color: red;
+    margin:5px;
+    height: 160px;
+    width: 260px; 
+}
+/*analize-bar start*/
+.analize{
+    background-color: rgb(240, 255, 253);
+padding: 20px 40px 20px 30px;
+
+}
+.rate{
+    width: 50px;
+    color: #999;
+}
+.rate-pic{
+    margin-top: 100px;
+}
+
+/*calender*/
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+#calender{
+    margin: 50px;
+        
+    }
+
+#calendr{
+margin: 3%;
+background-color: aliceblue;
+padding: 30px;
+height: 450px;
+}
+
+.month {
+padding: 20px;
+  
+  background: #999;
+  text-align: center;
+}
+.month .prev {
+    float: left;
+  }
+  
+  .month .next {
+    float: right;
+    padding-right: 25px;
+  }
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12.6%;
+  color: #666;
+  text-align: center;
+
+}
+
+.days {
+  padding: 20px 0px;
+  background: #fff;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12.6%;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size:15px;
+  color: #111;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #111;
+  color: white !important
+}
+
+/*notification section start*/
+#notification-bar{
+    background: aliceblue;
+    padding: 20px;
+    margin: 3%;
+}
+.notification-heading{
+background-color: beige;
+ padding-top: 10px
+}
+.notification-heading h4{
+    font-weight: 10px;
+    text-align: center;
+}
+
+/*three-bar section*/
+#three-bars{
+    margin: 50px;
+}
+.monthly-bar{
+    padding: 5%;
+    background: aliceblue;
+    width: 320px;
+    margin: 4%;
+}
+.monthly-bar>h4{
+text-align: center;
+}
+.weekly-bar{
+    padding: 5%;
+    background: aliceblue;
+    width: 320px;
+    margin: 4%;
+}
+.weekly-bar>h4{
+    text-align: center;
+}
+.yearly-bar{
+    padding: 5%;
+    background: aliceblue;
+    width: 320px;
+    margin: 4%;
+}
+.yearly-bar>h4{
+    text-align: center;
+}
+/*progrss-bar*/
+.prgres-bar{
+    background: aliceblue;
+    margin: 8px;
+    padding: 13px;
+}
+.progres-heading{
+    color: #222100;
+    font-size: 1.1em;
+}
+.progress{
+  
+    width: 100px;
+    color: #99aa;
+    margin-right: 5px;
+    border: solid 2px #99aa;
+    border-radius: 20px;
+    height: 10px !important;
+}
+.percent{
+    color: #222100;
+}
+/*progress table*/
+.progress-table{
+    height: 400px;
+    width: 670px;
+    color: #999;
+    padding: 50px;
+    margin: 8px;
+}
+.progress-table tr{
+font-weight: 80px;
+font-size: 15px;
+padding-bottom: 20px;
+}
+/*footer section*/
+footer{
+    background-color: #e19b8e;
+    color: #fff;
+    padding: 20px;
+}
+.name{
+    color: #8b5c7e;
+    font-weight: bolder;
+}
